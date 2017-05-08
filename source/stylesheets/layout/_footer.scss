@@ -1,27 +1,23 @@
 /* Footer design */
 #footer {
-  background: #333333;
+  background: $gray-darker;
   padding: 30px 0;
-  color: #CCCCCC;
-}
-
-#footer ul {
+  color: $gray-light;
+  ul {
   margin-top: 10px;
-}
-
-#footer a {
-  color: #CCCCCC;
+  }
+  a {
+  color: $gray-light;
   font-size: 30px;
   letter-spacing: 20px;
   transition: color 0.5s ease;
-}
-
-#footer a:hover {
-  color: yellow;
-}
-
-#footer p {
-  color:#C2B296;
+  }
+  a:hover {
+  color: $yellow;
+  }
+  p {
+  color:$gray-lighter;
+  }
 }
 
 
